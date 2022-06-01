@@ -358,9 +358,9 @@
                             <selected>Skin.HasSetting(MonochromeFlags)</selected>
                         </control>
 
-                        <!-- ========== -->
-                        <!-- --Hubs---- -->
-                        <!-- ========== -->
+                        <!-- ==== -->
+                        <!-- Hubs -->
+                        <!-- ==== -->
                            <control type="button" id="9665" description="Media Hubs ">
                             <textcolor>main_fg_100</textcolor>
                             <disabledcolor>main_fg_12</disabledcolor>
@@ -553,9 +553,9 @@
                             <onclick>RunScript(script.skinshortcuts,type=manage&amp;group=moviehubmenu)</onclick>
                         </control>
 
-                        <!-- ========== -->
-                        <!-- My List    -->
-                        <!-- ========== -->
+                        <!-- ======= -->
+                        <!-- My List -->
+                        <!-- ======= -->
 
                      <control type="button" id="9660" description="Configure Movie Hub 1">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9015)</visible>
@@ -1268,9 +1268,9 @@
                             <onclick>Skin.ToggleSetting(EnableOzWetherRadar)</onclick>
                             <visible>Skin.HasSetting(EnableWetherRadar)</visible>
                         </control>
-                        <!-- =============-->
-                        <!-- Widget Mods---->
-                        <!-- =============-->
+                        <!-- =========== -->
+                        <!-- Widget Mods -->
+                        <!-- =========== -->
                         <control type="button" id="9656" description="Widget Info bar ">
 		            <textcolor>main_fg_100</textcolor>
 			    <disabledcolor>main_fg_12</disabledcolor>
@@ -1496,9 +1496,9 @@
                             <onclick condition="!String.IsEmpty(Skin.String(similartv.path))">Skin.Reset(similartv.path)</onclick>
                         </control>
 
-                        <!-- =============-->
-                        <!-- ----PVR-------->
-                        <!-- =============-->
+                        <!-- === -->
+                        <!-- PVR -->
+                        <!-- === -->
                         <control type="radiobutton" id="9620" description="PVR Guide Info">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9012)</visible>
                             <include>Defs_Settings_Button</include>
@@ -1542,9 +1542,9 @@
                             <selected>!Skin.HasSetting(PVRGuideGenreName)</selected>
                             <onclick>Skin.ToggleSetting(PVRGuideGenreName)</onclick>
                         </control>
-                        <!-- =============-->
-                        <!-- Netflix View--->
-                        <!-- =============-->
+                        <!-- ============ -->
+                        <!-- Netflix View -->
+                        <!-- ============ -->
 
 
                         <!-- ================= -->
