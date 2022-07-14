@@ -4500,3 +4500,18 @@ msgstr ""
 msgctxt "#31921"
 msgid "Spotlight TV"
 msgstr ""
+
+#: /1080i/font.xml
+msgctxt "#33000"
+msgid "Roboto"
+msgstr ""
+
+#: /1080i/font.xml
+msgctxt "#33001"
+msgid "Ubuntu"
+msgstr ""
+
+#: /1080i/font.xml
+msgctxt "#33002"
+msgid "Noto Sans"
+msgstr ""
